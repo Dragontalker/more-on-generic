@@ -14,4 +14,6 @@
 //   }
 // }
 
-class ArrayOfAnything<T> {}
+class ArrayOfAnything<T> {
+  constructor(public collection: T[]) {}
+}
