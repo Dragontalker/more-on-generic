@@ -8,4 +8,8 @@ class ArrayOfNumbers {
 
 class ArrayOfStrings {
   constructor(public collection: string[]) {}
+
+  get(index: number): string {
+    return this.collection[index];
+  }
 }
