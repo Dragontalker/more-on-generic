@@ -1,1 +1,3 @@
-class ArrayOfNumbers {}
+class ArrayOfNumbers {
+  constructor(public collection: number[]) {}
+}
