@@ -22,3 +22,6 @@ const printHousesOrCars = <T extends Printable>(arr: T[]): void => {
 
 // For houses
 printHousesOrCars<House>([new House(), new House()]);
+
+// For cars
+printHousesOrCars<Car>([new Car(), new Car()]);
