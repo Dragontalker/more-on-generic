@@ -21,3 +21,6 @@ class ArrayOfAnything<T> {
     return this.collection[index];
   }
 }
+
+// For strings
+new ArrayOfAnything<string>(['a', 'b', 'c']);
