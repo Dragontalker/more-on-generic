@@ -5,3 +5,5 @@ class ArrayOfNumbers {
     return this.collection[index];
   }
 }
+
+class ArrayOfStrings {}
