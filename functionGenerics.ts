@@ -1,0 +1,3 @@
+const printStrings = () => {}
+
+const printNumbers = () => {}
