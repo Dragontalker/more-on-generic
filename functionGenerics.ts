@@ -15,3 +15,6 @@ const printAnything = <T>(arr: T[]): void => {
     console.log(arr[i]);
   }
 }
+
+// For strings
+printAnything<string>(['a', 'b', 'c']);
