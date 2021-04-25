@@ -1,14 +1,14 @@
-// class Car {
-//   print() {
-//     console.log('I am a car');
-//   }
-// }
+class Car {
+  print() {
+    console.log('I am a car');
+  }
+}
 
-// class House {
-//   print() {
-//     console.log('I am a house');
-//   }
-// }
+class House {
+  print() {
+    console.log('I am a house');
+  }
+}
 
 interface Printable {
   print(): void;
@@ -19,3 +19,6 @@ const printHousesOrCars = <T extends Printable>(arr: T[]): void => {
     arr[i].print();
   }
 }
+
+// For houses
+printHousesOrCars<House>([new House(), new House()]);
