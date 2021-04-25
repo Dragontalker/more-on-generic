@@ -10,4 +10,12 @@
 //   }
 // }
 
-const printHousesOrCars = <T>(arr: T[]): void => {}
+interface Printable {
+  print(): void;
+}
+
+const printHousesOrCars = <T extends Printable>(arr: T[]): void => {
+  for (let i = 0; i < arr.length; i++) {
+    arr[i].print();
+  }
+}
