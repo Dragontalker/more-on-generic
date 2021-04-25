@@ -25,3 +25,6 @@ printHousesOrCars<House>([new House(), new House()]);
 
 // For cars
 printHousesOrCars<Car>([new Car(), new Car()]);
+
+// Mixed
+printHousesOrCars<House | Car>([new House(), new Car()]);
