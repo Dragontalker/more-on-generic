@@ -24,3 +24,6 @@ class ArrayOfAnything<T> {
 
 // For strings
 new ArrayOfAnything<string>(['a', 'b', 'c']);
+
+// For numbers
+new ArrayOfAnything<number>([1, 2, 3]);
