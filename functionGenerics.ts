@@ -18,3 +18,6 @@ const printAnything = <T>(arr: T[]): void => {
 
 // For strings
 printAnything<string>(['a', 'b', 'c']);
+
+// For numbers
+printAnything<number>([1, 2, 3]);
