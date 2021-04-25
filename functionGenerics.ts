@@ -4,4 +4,8 @@ const printStrings = (arr: string[]): void => {
   }
 }
 
-const printNumbers = () => {}
+const printNumbers = (arr: number[]): void => {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
