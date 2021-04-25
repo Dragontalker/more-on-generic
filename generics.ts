@@ -6,4 +6,6 @@ class ArrayOfNumbers {
   }
 }
 
-class ArrayOfStrings {}
+class ArrayOfStrings {
+  constructor(public collection: string[]) {}
+}
